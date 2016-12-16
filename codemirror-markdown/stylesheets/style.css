@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.editor-wrap {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+}
+.editor-wrap .CodeMirror {
+  font-size: 18px;
+  height: 100%;
+}
+
+.preview-wrap {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+}
+.preview-wrap .markdown-body {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 980px;
+  padding: 45px;
+  font-size: 18px;
+}
+.preview-wrap .markdown-body ul > li {
+  list-style-type: disc;
+}
+.preview-wrap .markdown-body ol > li {
+  list-style-type: lower-roman;
+}
+
+/*# sourceMappingURL=style.css.map */

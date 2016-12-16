@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+.editor-wrap {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+
+  .CodeMirror {
+    font-size: 18px;
+    height: 100%;
+  }
+}
+.preview-wrap {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+
+  .markdown-body {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 980px;
+    padding: 45px;
+    font-size: 18px;
+
+    ul > li {
+      list-style-type: disc;
+    }
+    ol > li {
+      list-style-type: lower-roman;
+    }
+  }
+}
